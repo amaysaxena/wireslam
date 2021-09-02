@@ -46,9 +46,10 @@ If you specify more than one non-ground-truth CSV, they will all be displayed in
 ```
 python vis_structure.py ../results/struct_points_lines_constr_scratch.json
 ```
+This will bring up an interactive 3D plot, which should look like this.
 
 <p align="middle">
-    <img src="./img/structure.png" width="400"/>
+    <img src="./img/structure.png" width="600"/>
 </p>
 
 
