@@ -35,7 +35,9 @@ python vis.py ../wireframe/seq0/gt_poses.csv ../results/pure_odom.csv ../results
 ```
 This will generate two plots, one for translational error and one for rotational error as compared to ground-truth. These should look something like this:
 
-<img src="./img/trans_err.png" width="200">
-<img src="./img/rot_err.png" width="200">
+<p align="middle">
+    <img src="./img/trans_err.png" width="200"/>
+	<img src="./img/rot_err.png" width="200"/>
+</p>
 
 If you specify more than one non-ground-truth CSV, they will all be displayed in the same plot as above.
