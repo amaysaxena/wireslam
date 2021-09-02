@@ -1,6 +1,8 @@
 # WireSLAM
 
-For context, read the paper `EE290_WireSLAM_Paper.pdf`. This repository implements the necessary components for the WireSLAM backend. This repository depends on `GTSAM`, `Eigen`, `Boost` and `TBB` (Intel Thread Building Blocks, which should already be installed). Synthetic wireframe data is present in the `wireframe` directory. `main_line.cc` implements a demo that runs the backend on sequence 0 from the synthetic data, with randomly generated odometry noise. To compile the demo, first create a build directory in the root of this repository:
+For context, read the paper `EE290_WireSLAM_Paper.pdf`. This repository implements the necessary components for the WireSLAM backend. This repository depends on `GTSAM`, `Eigen`, `Boost` and `TBB` (Intel Thread Building Blocks, which should already be installed). Before you can run the demo, you will need to download the folder `wireframe` from [this](https://drive.google.com/drive/folders/1ryzBDS6Xe7rs4UL7c7dp_gMlPXtOGhwf?usp=sharing) Google Drive link and place it in the root directory of this repository.
+
+`main_line.cc` implements a demo that runs the backend on sequence 0 from the synthetic data, with randomly generated odometry noise. To compile the demo, first create a build directory in the root of this repository:
 
 ```
 mkdir build
