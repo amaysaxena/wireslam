@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import json
-from animate_3d import rotanimate
 
 struct_json = sys.argv[1] # structure result filename
 
